@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 1440px;
+    height: 900px;
+    background: #FFFFFF;
+}
+
+
+/*MENU*/
+
+.navigation {
+    display: inline-flex;
+    width: 1440px;
+    height: 48px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+    align-items: baseline;
+}
+
+.nav-icon {
+    padding: 15px;
+    margin-right: 20px;
+}
+
+.bar-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.87);
+    margin-right: 120px;
+}
+
+.menu {
+    width: 1105px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/*LIST EVENTS*/
+
+.list-events {
+    position: absolute;
+    width: 228px;
+    height: 246px;
+    left: 29px;
+    top: 127px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+}
+
+.paint-brucket {
+    position: absolute;
+    width: 196px;
+    height: 48px;
+    left: 18px;
+    top: 0px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.choose-color {
+    position: absolute;
+    width: 196px;
+    height: 48px;
+    left: 16px;
+    top: 56px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.move {
+    position: absolute;
+    width: 196px;
+    height: 48px;
+    left: 16px;
+    top: 120px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.transform {
+    position: absolute;
+    width: 196px;
+    height: 48px;
+    left: 16px;
+    top: 168px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.button-img {
+    margin: 10px;
+}
+
+.button-name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.541327);
+    margin-left: 30px;
+}
+
+.text-color-list {
+    padding-left: 30px;
+}
+
+
+/*LIST COLOR*/
+
+.list-color {
+    position: absolute;
+    width: 228px;
+    height: 246px;
+    left: 29px;
+    top: 465px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+}
+
+.current-color {
+    position: absolute;
+    width: 196px;
+    height: 48px;
+    left: 18px;
+    top: 0px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.current-color-ellipse {
+    width: 20px;
+    height: 20px;
+    background: #f5c010;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.prev-color {
+    position: absolute;
+    width: 196px;
+    height: 48px;
+    left: 16px;
+    top: 56px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.prev-color-ellipse {
+    width: 20px;
+    height: 20px;
+    background: rgb(244, 247, 65);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.red {
+    position: absolute;
+    width: 196px;
+    height: 48px;
+    left: 16px;
+    top: 120px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.red-color-ellipse {
+    width: 20px;
+    height: 20px;
+    background: #F74141;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.blue {
+    position: absolute;
+    width: 196px;
+    height: 48px;
+    left: 16px;
+    top: 168px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.blue-color-ellipse {
+    width: 20px;
+    height: 20px;
+    background: #41B6F7;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+
+/*DIVIDER*/
+
+.divider {
+    position: absolute;
+    height: 16px;
+    left: 0%;
+    right: 0%;
+    top: 104px;
+}
+
+.line {
+    position: absolute;
+    height: 1px;
+    left: 0%;
+    right: 0%;
+    top: 111px;
+    background: rgba(0, 0, 0, 0.12);
+}
+
+/*PALLETE FORM*/
+
+.pallete-form{
+    position: absolute;
+    width: 228px;
+    height: 246px;
+    left: 1200px;
+    top: 127px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+}
+
+/*CANVAS*/
+
+.canvas {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    margin-left: 500px;
+    width: 512px;
+    height: 512px;
+}
